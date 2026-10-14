@@ -5,11 +5,14 @@ defineProps<{
 </script>
 
 <template>
-  <div class="rounded-2xl border border-slate-700 bg-slate-800 p-6">
-    <h2 class="mb-4 text-xl font-bold text-white">
+  <article class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6
+           transition hover:border-slate-700">
+    <h2 class="mb-5 text-lg font-semibold text-white">
       {{ title }}
     </h2>
 
-    <slot />
-  </div>
+    <div class="text-sm leading-6 text-slate-400">
+      <slot />
+    </div>
+  </article>
 </template>

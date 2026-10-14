@@ -36,7 +36,7 @@ export const profile = {
   ],
 
   favorites: {
-    sport: 'Football',
+    sport: 'Football , Badminton',
     team: 'Manchester United',
     game: 'Apexlegend',
     food: 'หมึกผัดไข่เค็ม',
